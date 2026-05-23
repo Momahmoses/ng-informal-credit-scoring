@@ -1,6 +1,6 @@
-# 💳 Informal Economy Credit Scoring for Nigerian Market Traders
+# Informal Economy Credit Scoring for Nigerian Market Traders
 
-> ML credit scoring engine that generates a bankable creditworthiness score (300–850) for Nigeria's informal workers using alternative data: mobile money transaction patterns, airtime behaviour, market association records, and geospatial stability — unlocking capital for the 65% of Nigeria's economy that is informal.
+> ML credit scoring engine that generates a bankable creditworthiness score (300–850) for Nigeria's informal workers using alternative data: mobile money transaction patterns, airtime behaviour, market association records, and geospatial stability, unlocking capital for the 65% of Nigeria's economy that is informal.
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://python.org)
 [![LightGBM](https://img.shields.io/badge/LightGBM-4.1-yellow.svg)](https://lightgbm.readthedocs.io)
@@ -11,7 +11,7 @@
 
 ## The Problem
 
-**65% of Nigeria's economy is informal.** A market woman who has traded successfully for 20 years, pays her stall rent on time, and runs a profitable business has zero credit history — every bank sees a blank file and says no. Meanwhile, Nigeria's microfinance sector charges 60–120% annual interest rates to cover default risk that good credit scoring would eliminate.
+**65% of Nigeria's economy is informal.** A market woman who has traded successfully for 20 years, pays her stall rent on time, and runs a profitable business has zero credit history, every bank sees a blank file and says no. Meanwhile, Nigeria's microfinance sector charges 60–120% annual interest rates to cover default risk that good credit scoring would eliminate.
 
 ---
 
@@ -19,11 +19,11 @@
 
 An alternative credit scoring engine that translates informal financial behaviour into a 300–850 FICO-style score:
 
-- **Mobile money patterns** (OPay, PalmPay, Moniepoint) — transaction regularity, volume, counterparty diversity
-- **Airtime behaviour** — top-up frequency and amount (income proxy)
-- **Market association records** — membership tenure, dues payment history
-- **Geospatial stability** — same market stall daily (consistent trader = lower risk)
-- **Phone metadata** — SIM age, device consistency
+- **Mobile money patterns** (OPay, PalmPay, Moniepoint), transaction regularity, volume, counterparty diversity
+- **Airtime behaviour**, top-up frequency and amount (income proxy)
+- **Market association records**, membership tenure, dues payment history
+- **Geospatial stability**, same market stall daily (consistent trader = lower risk)
+- **Phone metadata**, SIM age, device consistency
 
 ---
 
@@ -31,11 +31,11 @@ An alternative credit scoring engine that translates informal financial behaviou
 
 This system was designed with fairness as a core constraint, not an afterthought:
 
-- **NDPR compliant** — explicit opt-in, data minimization, right to erasure
-- **Demographic parity** — < 5% score gap across gender and geographic region
-- **SHAP explainability** — every score has a human-readable reason
-- **Appeals process** — declined applicants receive explanation + improvement path
-- **No proxy discrimination** — phone brand, network operator excluded from features
+- **NDPR compliant**, explicit opt-in, data minimization, right to erasure
+- **Demographic parity**, < 5% score gap across gender and geographic region
+- **SHAP explainability**, every score has a human-readable reason
+- **Appeals process**, declined applicants receive explanation + improvement path
+- **No proxy discrimination**, phone brand, network operator excluded from features
 
 ---
 
